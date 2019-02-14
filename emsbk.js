@@ -13,8 +13,8 @@ describe('EMSBK code challenge',function(){
 		element(by.id('form_state')).click();
 		element(by.xpath('//label[@for='form_workphone']')).sendkeys('0423416677');
 		element(by.css(#input'#form_date')).sendkeys('12-12-2019');
-		var el2 = element(by.class('datetime').click();
-		el2.$('[value="12"]').click();
+		var el2 = element.all(by.class('datetime').get(3);
+		el2.click();
 		element(by.css('#form_comments').send keys('nijfn');
 		var el3 = element(by.xpath('//select[@id='form_responserequired']')).click();
 		browser.driver.sleep(8000);
