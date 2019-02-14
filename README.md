@@ -24,3 +24,6 @@ This test will:
 5. Bonus: suggest the settings if we want the test to be run on public test platform service like _Saucelab_.
 
 For any of the above test if you have any question/suggestion, please forward your request to [miraz.al-mamun@emsbk.com ](mailto:miraz.al-mamun@emsbk.com)
+
+
+Added code using protractor and jasmine framework to perform site navigation
