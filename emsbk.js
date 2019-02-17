@@ -1,6 +1,7 @@
 describe('EMSBK code challenge',function(){
 	it('Testcase1',function(){
 		var url1='https://viewpoint-staging.bksv.com/sat3';
+		browser.ignoreSynchronization = true;
 		browser.get(url1);
 		browser.manage().window().maximize();
 		webelement el1=element(by.id('form_name'));
@@ -29,6 +30,7 @@ describe('EMSBK code challenge',function(){
 	it('Testcase2',function(){
 		
 		var url2 = 'https://viewpoint-admin-staging.emsbk.com/dca4';
+		browser.ignoreSynchronization = true;
 		browser.get(url2);
 		browser.manage().window().maximize();
 		browser.driver.sleep(8000);
