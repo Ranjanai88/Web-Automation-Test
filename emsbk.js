@@ -16,7 +16,7 @@ describe('EMSBK code challenge',function(){
 		element(by.css(#input'#form_date')).sendKeys('12-12-2019');
 		var el2 = element.all(by.class('datetime').get(3);
 		el2.click();
-		element(by.css('#form_comments').sendKeys keys('nijfn');
+		element(by.css('#form_comments').sendKeys('nijfn');
 		var el3 = element(by.xpath('//select[@id='form_responserequired']')).click();
 		browser.driver.sleep(8000);
 		el3.$('[value="No"]').click();
