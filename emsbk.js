@@ -4,24 +4,24 @@ describe('EMSBK code challenge',function(){
 		browser.ignoreSynchronization = true;
 		browser.get(url1);
 		browser.manage().window().maximize();
-		webelement el1=element(by.id('form_name'));
+		webelement el1=browser.driver.findElement(by.id('form_name'));
 		e11.sendkeys('Banumathy');
-		element(by.id('form_surname')).sendKeys('Sankaran');
-		element(by.xpath('//input[@id='form_address1']')).sendKeys('field street');
-		element(by.xpath('//input[@id='form_city']')).sendKeys('Melbourne');
-		element(by.id('form_address2')).sendKeys('Tarneit');
-		element(by.id('form_zipcode')).sendKeys('3012');
-		element(by.id('form_state')).click();
-		element(by.xpath('//label[@for='form_workphone']')).sendKeys('0423416677');
-		element(by.css(#input'#form_date')).sendKeys('12-12-2019');
+		browser.driver.findElement(by.id('form_surname')).sendKeys('Sankaran');
+		browser.driver.findElement(by.xpath('//input[@id='form_address1']')).sendKeys('field street');
+		browser.driver.findElement(by.xpath('//input[@id='form_city']')).sendKeys('Melbourne');
+		browser.driver.findElement(by.id('form_address2')).sendKeys('Tarneit');
+		browser.driver.findElement(by.id('form_zipcode')).sendKeys('3012');
+		browser.driver.findElement(by.id('form_state')).click();
+		browser.driver.findElement(by.xpath('//label[@for='form_workphone']')).sendKeys('0423416677');
+		browser.driver.findElement(by.css(#input'#form_date')).sendKeys('12-12-2019');
 		var el2 = element.all(by.class('datetime').get(3);
 		el2.click();
-		element(by.css('#form_comments').sendKeys('nijfn');
-		var el3 = element(by.xpath('//select[@id='form_responserequired']')).click();
+		browser.driver.findElement(by.css('#form_comments').sendKeys('nijfn');
+		var el3 = browser.driver.findElement(by.xpath('//select[@id='form_responserequired']')).click();
 		browser.driver.sleep(8000);
 		el3.$('[value="No"]').click();
-		element(by.id('form_send_receipt_None')).all(by.css('#form_send_receipt_None')).get(0).click();
-		element(by.xpath('//button[@name='submit']').click();
+		browser.driver.findElement(by.id('form_send_receipt_None')).all(by.css('#form_send_receipt_None')).get(0).click();
+		browser.driver.findElement(by.xpath('//button[@name='submit']').click();
 		
 			
 		
@@ -34,11 +34,11 @@ describe('EMSBK code challenge',function(){
 		browser.get(url2);
 		browser.manage().window().maximize();
 		browser.driver.sleep(8000);
-		element(by.name('username')).sendKeys('abcd1234');
-		var pass = element(by.name('password'));
+		browser.driver.findElement(by.name('username')).sendKeys('abcd1234');
+		var pass = browser.driver.findElement (by.name('password'));
 		pass.sendKeys('3344545sdd');
 		expect(pass.getText()).toEqual('242562wdu');
-		element(by.xpath('//span[@class='auth0-label-submit']')).click();
+		browser.driver.findElement(by.xpath('//span[@class='auth0-label-submit']')).click();
 					
 	});
 	
