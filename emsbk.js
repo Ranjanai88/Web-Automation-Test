@@ -6,7 +6,7 @@ describe('EMSBK code challenge',function(){
 		webelement el1=element(by.id('form_name'));
 		e11.sendkeys('Banumathy');
 		element(by.id('form_surname')).sendkeys('Sankaran');
-		element(by.xpath('//input[@id='form_address1']')).sendkeys('field street');
+		element(by.xpath('//input[@id='form_address1']')).sendKeys('field street');
 		element(by.xpath('//input[@id='form_city']')).sendkeys('Melbourne');
 		element(by.id('form_address2')).sendkeys('Tarneit');
 		element(by.id('form_zipcode')).sendkeys('3012');
