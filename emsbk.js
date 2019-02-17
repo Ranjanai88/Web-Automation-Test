@@ -37,7 +37,7 @@ describe('EMSBK code challenge',function(){
 		browser.waitForAngular();
 		element(by.name('username')).sendKeys('abcd1234');
 		var pass = element(by.name('password'));
-		pass.sendkeys('3344545sdd');
+		pass.sendKeys('3344545sdd');
 		expect(pass.getText()).toEqual('242562wdu');
 		element(by.xpath('//span[@class='auth0-label-submit']')).click();
 					
