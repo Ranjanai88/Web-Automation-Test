@@ -21,7 +21,7 @@ describe('EMSBK code challenge',function(){
 		browser.driver.sleep(8000);
 		el3.$('[value="No"]').click();
 		element(by.id('form_send_receipt_None')).all(by.css('#form_send_receipt_None')).get(0).click();
-		element(by.xpath('//button[@name='submit']').click()
+		element(by.xpath('//button[@name='submit']').click();
 		
 			
 		
