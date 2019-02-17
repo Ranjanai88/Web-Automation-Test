@@ -34,7 +34,6 @@ describe('EMSBK code challenge',function(){
 		browser.get(url2);
 		browser.manage().window().maximize();
 		browser.driver.sleep(8000);
-		browser.waitForAngular();
 		element(by.name('username')).sendKeys('abcd1234');
 		var pass = element(by.name('password'));
 		pass.sendKeys('3344545sdd');
