@@ -1,9 +1,12 @@
 describe('EMSBK code challenge',function(){
+	beforeEach(function() {
+	browser.ignoreSynchronization = true;
+        browser.manage().window().maximize();
+    });
 	it('Testcase1',function(){
 		var url1='https://viewpoint-staging.bksv.com/sat3';
 		browser.ignoreSynchronization = true;
 		browser.get(url1);
-		browser.manage().window().maximize();
 		webelement el1=browser.driver.findElement(by.id('form_name'));
 		e11.sendkeys('Banumathy');
 		browser.driver.findElement(by.id('form_surname')).sendKeys('Sankaran');
@@ -23,7 +26,6 @@ describe('EMSBK code challenge',function(){
 		browser.driver.findElement(by.id('form_send_receipt_None')).all(by.css('#form_send_receipt_None')).get(0).click();
 		browser.driver.findElement(by.xpath('//button[@name='submit']').click();
 		
-			
 		
 	});
 	
