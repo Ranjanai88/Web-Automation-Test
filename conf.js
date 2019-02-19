@@ -1,4 +1,4 @@
-// An example configuration file.
+s// An example configuration file.
 exports.config = {
   directConnect: true,
 
@@ -13,7 +13,7 @@ exports.config = {
   // Spec patterns are relative to the current working directory when
   // protractor is called.
   //specs: ['example_spec.js'],
-  specs: ['calculation.js'],
+  specs: ['emsbk.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
